@@ -141,6 +141,12 @@
         "disableBodyPruning": true
       },
       "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": {
+            "token": "{{xsrf-token}}"
+          }
+        },
         "method": "GET",
         "header": [
           {
@@ -153,7 +159,7 @@
           "mode": "formdata",
           "formdata": []
         },
-        "url": "{{API_URL}}sanctum/csrf-cookie"
+        "url": "{{API_URL}}user"
       },
       "response": []
     }
