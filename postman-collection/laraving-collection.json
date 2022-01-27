@@ -63,7 +63,7 @@
       "response": []
     },
     {
-      "name": "User Register Copy",
+      "name": "User Login",
       "id": "e9c17ce5-0a43-44c9-a275-5eb2ab81fd9a",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
