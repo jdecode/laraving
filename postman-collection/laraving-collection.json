@@ -86,29 +86,6 @@
       "response": []
     },
     {
-      "name": "Get CSRF token Copy",
-      "id": "47abfa37-6e44-457d-987a-ec36e1c643af",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "GET",
-        "header": [
-          {
-            "key": "Accept",
-            "value": "application/json",
-            "type": "text"
-          }
-        ],
-        "body": {
-          "mode": "formdata",
-          "formdata": []
-        },
-        "url": "{{API_URL}}sanctum/csrf-cookie"
-      },
-      "response": []
-    },
-    {
       "name": "User Login",
       "event": [
         {
@@ -154,6 +131,29 @@
           ]
         },
         "url": "{{API_URL}}login"
+      },
+      "response": []
+    },
+    {
+      "name": "Get CSRF token Copy",
+      "id": "47abfa37-6e44-457d-987a-ec36e1c643af",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
+        "url": "{{API_URL}}sanctum/csrf-cookie"
       },
       "response": []
     }
