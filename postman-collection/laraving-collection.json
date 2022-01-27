@@ -135,7 +135,7 @@
       "response": []
     },
     {
-      "name": "Get CSRF token Copy",
+      "name": "Get User details",
       "id": "47abfa37-6e44-457d-987a-ec36e1c643af",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
