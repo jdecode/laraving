@@ -7,20 +7,6 @@
   "item": [
     {
       "name": "Landing page",
-      "event": [
-        {
-          "listen": "test",
-          "script": {
-            "id": "d9e35996-c87f-4509-818a-a53626c7d305",
-            "exec": [
-              "pm.test(\"Status code is 200\", function () {",
-              "    pm.response.to.have.status(200);",
-              "});"
-            ],
-            "type": "text/javascript"
-          }
-        }
-      ],
       "id": "48fdb99a-319b-4011-bacf-1af5580c83be",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
