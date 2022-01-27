@@ -17,6 +17,19 @@
         "url": "{{BASE_URL}}"
       },
       "response": []
+    },
+    {
+      "name": "Landing page Copy",
+      "id": "3cc2139f-9efe-46b8-a670-fffeac5af554",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{BASE_URL}}"
+      },
+      "response": []
     }
   ]
 }
