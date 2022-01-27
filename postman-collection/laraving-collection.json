@@ -25,9 +25,40 @@
         "disableBodyPruning": true
       },
       "request": {
-        "method": "GET",
-        "header": [],
-        "url": "{{BASE_URL}}"
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "name",
+              "value": "JD Singh",
+              "type": "text"
+            },
+            {
+              "key": "email",
+              "value": "jdecode@gmail.com",
+              "type": "text"
+            },
+            {
+              "key": "password",
+              "value": "password",
+              "type": "text"
+            },
+            {
+              "key": "password_confirmation",
+              "value": "password",
+              "type": "text"
+            }
+          ]
+        },
+        "url": "{{API_URL}}register"
       },
       "response": []
     }
