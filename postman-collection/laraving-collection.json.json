@@ -1,0 +1,22 @@
+{
+  "info": {
+    "_postman_id": "70cb68c6-c16c-4515-b4da-45433ec2eb32",
+    "name": "Laraving",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Landing page",
+      "_postman_id": "48fdb99a-319b-4011-bacf-1af5580c83be",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{BASE_URL}}"
+      },
+      "response": []
+    }
+  ]
+}
