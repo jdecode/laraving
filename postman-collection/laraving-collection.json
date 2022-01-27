@@ -87,6 +87,21 @@
     },
     {
       "name": "User Login",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "c0f17824-0949-4ab2-ba44-7f18089c3bbd",
+            "exec": [
+              "pm.test(\"Store auth token\", function () {",
+              "    var jsonData = pm.response.json();",
+              "    pm.environment.set(\"xsrf-token\", jsonData.token);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
       "id": "e9c17ce5-0a43-44c9-a275-5eb2ab81fd9a",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
