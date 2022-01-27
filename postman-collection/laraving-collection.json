@@ -61,6 +61,50 @@
         "url": "{{API_URL}}register"
       },
       "response": []
+    },
+    {
+      "name": "User Register Copy",
+      "id": "e9c17ce5-0a43-44c9-a275-5eb2ab81fd9a",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "name",
+              "value": "JD Singh",
+              "type": "text"
+            },
+            {
+              "key": "email",
+              "value": "jd@jd.com",
+              "type": "text"
+            },
+            {
+              "key": "password",
+              "value": "password",
+              "type": "text"
+            },
+            {
+              "key": "password_confirmation",
+              "value": "password",
+              "type": "text"
+            }
+          ]
+        },
+        "url": "{{API_URL}}register"
+      },
+      "response": []
     }
   ]
 }
