@@ -81,11 +81,6 @@
           "mode": "formdata",
           "formdata": [
             {
-              "key": "name",
-              "value": "JD Singh",
-              "type": "text"
-            },
-            {
               "key": "email",
               "value": "jd@jd.com",
               "type": "text"
@@ -94,15 +89,10 @@
               "key": "password",
               "value": "password",
               "type": "text"
-            },
-            {
-              "key": "password_confirmation",
-              "value": "password",
-              "type": "text"
             }
           ]
         },
-        "url": "{{API_URL}}register"
+        "url": "{{API_URL}}login"
       },
       "response": []
     }
