@@ -79,20 +79,9 @@
         ],
         "body": {
           "mode": "formdata",
-          "formdata": [
-            {
-              "key": "email",
-              "value": "jd@jd.com",
-              "type": "text"
-            },
-            {
-              "key": "password",
-              "value": "password",
-              "type": "text"
-            }
-          ]
+          "formdata": []
         },
-        "url": "{{API_URL}}login"
+        "url": "{{API_URL}}sanctum/csrf-cookie"
       },
       "response": []
     },
