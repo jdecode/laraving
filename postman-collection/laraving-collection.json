@@ -63,8 +63,8 @@
       "response": []
     },
     {
-      "name": "User Login",
-      "id": "e9c17ce5-0a43-44c9-a275-5eb2ab81fd9a",
+      "name": "User Login Copy",
+      "id": "f9314846-01f5-4f5d-8fa7-092d18b8dc99",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -97,8 +97,8 @@
       "response": []
     },
     {
-      "name": "User Login Copy",
-      "id": "f9314846-01f5-4f5d-8fa7-092d18b8dc99",
+      "name": "User Login",
+      "id": "e9c17ce5-0a43-44c9-a275-5eb2ab81fd9a",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
